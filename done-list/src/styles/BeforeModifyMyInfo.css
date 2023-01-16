@@ -3,10 +3,9 @@ body {
 }
 
 .main {
+    padding-top: 50px;
     text-align: center;
     justify-content: center;
-    display: flex; 
-    background-color: #EAE9D5;
   }
 
   .sub-main {
@@ -15,9 +14,9 @@ body {
   }
 
   .imgs {
-      padding-top: 70px;
-      padding-left: 15px;
-      padding-bottom: 25%;
+      padding-top: 0px;
+      padding-left: 100px;
+      padding-bottom: 25px;
       justify-content: center;
       display: flex;
     }

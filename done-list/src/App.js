@@ -7,6 +7,8 @@ import Home from './routes/Home.js';
 import HowtoUse from './routes/HowtoUse.js';
 import LoginUi from "./routes/LoginUi";
 import JoinPage from "./routes/JoinPage";
+import ModifyMyInfo from "./routes/ModifyMyInfo";
+import BeforeModifyMyInfo from "./routes/BeforeModifyMyInfo";
 
 function App(props) {
 return (
@@ -17,6 +19,8 @@ return (
     <Route path="/how-to-use" element={<HowtoUse />}/>
     <Route path="/login-page" element={<LoginUi />}/>
     <Route path="/join-page" element={<JoinPage />}/>
+    <Route path="/modify-my-info-page" element={<ModifyMyInfo />}/>
+    <Route path="/before-modify-my-info-page" element={<BeforeModifyMyInfo />}/>
     </Routes>
   </BrowserRouter>
 );
