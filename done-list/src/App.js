@@ -6,6 +6,7 @@ import MyPage from './routes/MyPage.js';
 import Home from './routes/Home.js';
 import HowtoUse from './routes/HowtoUse.js';
 import LoginUi from "./routes/LoginUi";
+import JoinPage from "./routes/JoinPage";
 
 function App(props) {
 return (
@@ -15,6 +16,7 @@ return (
     <Route path="/mypage" element={<MyPage />}/>
     <Route path="/how-to-use" element={<HowtoUse />}/>
     <Route path="/login-page" element={<LoginUi />}/>
+    <Route path="/join-page" element={<JoinPage />}/>
     </Routes>
   </BrowserRouter>
 );
