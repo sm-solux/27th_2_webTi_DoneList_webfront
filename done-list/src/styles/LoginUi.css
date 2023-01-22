@@ -1,81 +1,74 @@
-body {
-  background-color: #EAE9D5;
-}
-
-.main {
+.login-main {
     text-align: center;
     justify-content: center;
     display: flex; 
     background-color: #EAE9D5;
   }
 
-  .sub-main {
+  .login-sub-main {
     text-align: center;
     justify-content: center;
   }
 
-  .imgs {
-      padding-top: 70px;
-      padding-left: 15px;
-      padding-bottom: 25%;
+  .login-imgs {
+      padding-top: 10%;
+      padding-left: 20px;
+      padding-bottom: 5%;
       justify-content: center;
-      display: flex;
     }
 
-  .logo {
-    width: 400px;
+  .login-logo {
+    width: 350px;
     height: auto;
   }
-  
-  .text-id {
-    padding-left: 20px;
-    display: flex;
-  }
 
-  .text-pwd {
-    padding-left: 20px;
-    display: flex;
-  }
-
-  .first-input{
+  .login-first-input{
     display: flex;
 }
-  .second-input{
+  .login-second-input{
       padding-top: 15px;
       padding-bottom: 15px;
   }
 
-  .text-id {
+  .login-text-id {
     height: 20px;
     width: 20px;
     position: absolute;
     padding: 20px 0 0 25px;
-    font-size: 20px
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-family: "BlackOpsOne";
+    color: #065C94;
   }
 
-  .v-line {
+  .login-v-line {
     position: absolute;
     border-left: 5px solid #065C94 ;
     padding: 65px 0 0 25px;
     margin-left: 200px;
   }
 
-  .text-pwd {
+  .login-text-pwd {
     height: 20px;
     width: 20px;
     position: absolute;
     padding: 20px 0 0 25px;   
-    font-size: 20px 
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-family: "BlackOpsOne";
+    color: #065C94;
   }
 
-  .v-line2 {
+  .login-v-line2 {
     position: absolute;
     border-left: 5px solid #065C94 ;
     padding: 65px 0 0 25px;
     margin-left: 200px;
   }
   
-  .user-id{
+  .login-user-id{
     width: 340px;
     height: 55px;
     border-radius: 60px;
@@ -84,17 +77,19 @@ body {
     background-color: #fff;
     padding-left: 220px;
     font-size: 20px;
+    font-family: "BlackOpsOne";
   }
 
-  .user-pwd {
+  .login-user-pwd {
       width: 340px;
       height: 55px;
       border-radius: 60px;
       border: 5px solid #065C94;
       outline: none;
-    background-color: #fff;
+      background-color: #fff;
       padding-left: 220px;
       font-size: 20px;
+      font-family: "BlackOpsOne";
   }
 
   .login-button-Ui{
@@ -105,6 +100,7 @@ body {
       color: white;
       font-size: 20px;
       border: none;
+      font-family: "BlackOpsOne";
   }
   .login-button{
       padding-top: 25px;

@@ -1,80 +1,84 @@
-body {
-  background-color: #EAE9D5;
+.b-mod-main {
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    background-color: #EAE9D5;
 }
 
-.main {
-    padding-top: 50px;
+.b-mod-sub-main {
     text-align: center;
     justify-content: center;
-  }
+}
 
-  .sub-main {
-    text-align: center;
+.b-mod-imgs {
+    padding-top: 10%;
+    padding-left: 20px;
+    padding-bottom: 5%;
     justify-content: center;
-  }
-
-  .imgs {
-      padding-top: 0px;
-      padding-left: 100px;
-      padding-bottom: 25px;
-      justify-content: center;
-      display: flex;
     }
 
-  .logo {
-    width: 400px;
+.b-mod-logo {
+    width: 350px;
     height: auto;
-  }
-  
-  .text-id {
+}
+
+.b-mod-text-id {
     padding-left: 20px;
     display: flex;
-  }
+    margin-top: 3px;
+    margin-left: 5px;
+    color: #065C94;
+    font-family: "BlackOpsOne";
+}
 
-  .text-pwd {
+.b-mod-text-pwd {
     padding-left: 20px;
     display: flex;
-  }
+    margin-top: 3px;
+    margin-left: 5px;
+    color: #065C94;
+    font-family: "BlackOpsOne";
+}
 
-  .first-input{
+.b-mod-first-input{
     display: flex;
 }
-  .second-input{
-      padding-top: 15px;
-      padding-bottom: 15px;
-  }
+.b-mod-second-input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
-  .text-id {
+.b-mod-text-id {
     height: 20px;
     width: 20px;
     position: absolute;
     padding: 20px 0 0 25px;
     font-size: 20px
-  }
+}
 
-  .v-line {
+.b-mod-v-line {
     position: absolute;
     border-left: 5px solid #065C94 ;
     padding: 65px 0 0 25px;
     margin-left: 200px;
-  }
+}
 
-  .text-pwd {
+.b-mod-text-pwd {
     height: 20px;
     width: 20px;
     position: absolute;
     padding: 20px 0 0 25px;   
     font-size: 20px 
-  }
+}
 
-  .v-line2 {
+.b-mod-v-line2 {
     position: absolute;
     border-left: 5px solid #065C94 ;
     padding: 65px 0 0 25px;
     margin-left: 200px;
-  }
-  
-  .user-id{
+}
+
+.b-mod-user-id{
     width: 340px;
     height: 55px;
     border-radius: 60px;
@@ -83,28 +87,29 @@ body {
     background-color: #fff;
     padding-left: 220px;
     font-size: 20px;
-  }
+}
 
-  .user-pwd {
-      width: 340px;
-      height: 55px;
-      border-radius: 60px;
-      border: 5px solid #065C94;
-      outline: none;
+.b-mod-user-pwd {
+    width: 340px;
+    height: 55px;
+    border-radius: 60px;
+    border: 5px solid #065C94;
+    outline: none;
     background-color: #fff;
-      padding-left: 220px;
-      font-size: 20px;
-  }
+    padding-left: 220px;
+    font-size: 20px;
+}
 
-  .login-button-Ui{
-      width: 140px;
-      height: 60px;
-      border-radius: 60px;
-      background-color: #065C94;
-      color: white;
-      font-size: 20px;
-      border: none;
-  }
-  .login-button{
-      padding-top: 25px;
-  }
+.b-mod-button-Ui{
+    width: 140px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #065C94;
+    color: white;
+    font-size: 20px;
+    border: none;
+    font-family: "BlackOpsOne";
+}
+.b-mod-button{
+    padding-top: 25px;
+}

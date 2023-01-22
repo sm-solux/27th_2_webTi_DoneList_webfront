@@ -6,71 +6,62 @@ background-color: #EAE9D5;
 
 .user-picture {
     float:left;
-    position: relative;
-    left: 70px;
-    top : 60px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 110px;
     width : 150px;
     height : 150px;
     border-radius: 50%;
     background-color: white;
 }
 
-.profile-hi {
-    float:left;
-    position: relative;
-    top: 90px;
-    left: 98px;
-    font-size: 30px;
-    font-family: "맑은고딕";
-}
-
 .modify-Info {
+    position: absolute;
     border: 0;
     float : left;
-    position:relative;
-    top:144px;
-    right: 205px;
-    width : 130px;
-    height : 40px;
+    margin-top:210px;
+    margin-left: 340px;
+    width : 165px;
+    height : 50px;
     background-color: #B5B5B5;
-    border-radius: 20px;
+    border-radius: 25px;
     color:white;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     font-family: "맑은고딕";
     cursor:pointer;
 }
 .log-out {
     border: 0;
+    position: absolute;
     float : left;
-    position:relative;
-    top:144px;
-    right: 190px;
-    width : 130px;
-    height : 40px;
+    margin-top:210px;
+    margin-left: 520px;
+    width : 165px;
+    height : 50px;
     background-color: #B5B5B5;
-    border-radius: 20px;
+    border-radius: 25px;
     color:white;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     font-family: "맑은고딕";
     cursor:pointer;
 }
 .img-DL {
+    position: absolute;
     float : left;
-    position:relative;
     width: 120px;
     height: 100px;
-    right: 825px;
-    top: 100px;
+    margin-top: 310px;
+    margin-left: 170px;
 }
 .directToDL {
     float : left;
-    position:relative;
-    width: 30%;
+    position: absolute;
+    width: 390px;
     height: 50px;
-    left: 210px;
-    top: 20px;
+    margin-top:330px;
+    margin-left: 310px;
     border: none;
     border-radius: 25px;
     background-color: white;
@@ -79,10 +70,47 @@ background-color: #EAE9D5;
 }
 
 .receivedMsg {
+    position: absolute;
     float :left;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
     border: none;
-    border-radius: 25px;
+    border-radius: 10px;
+    margin-top: 420px;
+    margin-left: 340px;
+    background-color: #6788B1;
+}
 
+.sendMsg {
+    position: absolute;
+    float :left;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 420px;
+    margin-left: 520px;
+    background-color: #6788B1;
+}
+
+.Title_myLiked {
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    float :left;
+    margin-top: 70px;
+    margin-left: 950px;
+    font-family: "나눔스퀘어";
+    font-size: 25px;
+    background-color: #6788B1;
+    color: white;
+    font-weight: bold;
+    border:none;
+    border-radius:25px;
 }
 .real-line {
     width: 99.9%;

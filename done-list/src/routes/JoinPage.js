@@ -7,50 +7,50 @@ function JoinPage () {
     return (
         <div>
         <NavBeforeLogin/>
-        <div className="main">
-            <div className="imgs">
-                <div className="container-image">
-                <img src={logo} alt="logo" className="logo"/>
+        <div className="join-main">
+            <div className="join-imgs">
+                <div className="join-container-image">
+                <img src={logo} alt="logo" className="join-logo"/>
                 </div>
             </div>
             
-            <div className="sub-main">            
-                <div className='first-input'>
-                    <div className='v-line'></div>
-                    <span className="text-nickname">nickname</span>
-                    <input className="user-nickname" type="text"/>
+            <div className="join-sub-main">            
+                <div className='join-first-input'>
+                    <div className='join-v-line'></div>
+                    <span className="join-nickname">nickname</span>
+                    <input className="join-input-nickname" type="text"/>
                 </div>
                 
-                <div className="second-input">
-                    <div className="v-line2"></div>
-                    <span className="text-id">id</span>
-                    <input className="user-id" type="text"/>
+                <div className="join-second-input">
+                    <div className="join-v-line2"></div>
+                    <span className="join-id">id</span>
+                    <input className="join-input-id" type="text"/>
                 </div>
 
-                <div className='third-input'>
-                    <div className='v-line3'></div>
-                    <span className="text-pwd">password</span>
-                    <input className="user-pwd" type="password"/>
+                <div className='join-third-input'>
+                    <div className='join-v-line3'></div>
+                    <span className="join-pwd">password</span>
+                    <input className="join-input-pwd" type="password"/>
                 </div>
                 
-                <div className="fourth-input">
-                    <div className="v-line4"></div>
-                    <span className="text-cpwd">confrim pw</span>
-                    <input className="user-cpwd" type="password"/>
+                <div className="join-fourth-input">
+                    <div className="join-v-line4"></div>
+                    <span className="join-cpwd">confrim pw</span>
+                    <input className="join-input-cpwd" type="password"/>
                 </div>
 
-                <div className="fiveth-input">
-                    <div className="v-line5"></div>
-                    <span className="text-ad-year">입학년도</span>
-                    <input className="user-ad-year" type="text"/>
+                <div className="join-fiveth-input">
+                    <div className="join-v-line5"></div>
+                    <span className="join-ad-year">입학년도</span>
+                    <input className="join-input-ad-year" type="text"/>
                 </div>
                 
                 <div className="sign-up-button">
-                    <button className="sign-up-button-Ui">SING UP</button>
+                    <button className="sign-up-button-Ui">SIGN UP</button>
                 </div>
             </div>
         </div>
-        <UnderBar/>
+    <UnderBar/>
     </div>
     );
 }

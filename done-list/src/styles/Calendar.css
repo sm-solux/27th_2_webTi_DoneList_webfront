@@ -1,0 +1,19 @@
+.yearCircle {
+    border-radius: 50%;
+    background-color: #065c94;
+    width: 25px;
+    height: 25px;
+    margin-right: 400px;
+    margin-left: 100px;
+    margin-top: 90px;
+    float: left;
+}
+.year-line {
+    border-left: solid #065c94;
+    margin-top: 100px;
+    height: 618px;
+    margin-left: 110px;
+    margin-right: 400px;
+}
+
+

@@ -1,21 +1,41 @@
-body
-{
-background-color: #EAE9D5;
-} 
+body {
+    background-color: #EAE9D5;
+}
 
-*{padding:0;margin:0}
-ul,ol{list-style:none}
-li{text-decoration:none;color:#fff;font-size:15px}
-.nav1{overflow:hidden;height:40px;background-color:#065C94;}
+* {
+    padding: 0;
+    margin: 0
+}
 
-.nav1{text-align:right}
+ul,
+ol {
+    list-style: none
+}
+
+li {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px
+}
+
+.nav1 {
+    width: 100%;
+    overflow: hidden;
+    height: 40px;
+    background-color: #065C94;
+}
+
+.nav1 {
+    text-align: right;
+    position: fixed;
+}
 
 .topBar {
     border: 0;
     background-color: transparent;
-    color:white;
+    color: white;
     font-size: 15.5px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .search-box {
@@ -23,9 +43,9 @@ li{text-decoration:none;color:#fff;font-size:15px}
     position: relative;
     float: left;
     height: 25px;
-    width : 200px;
+    width: 200px;
     top: 7px;
-    left : 10px;
+    left: 10px;
     border-radius: 30px;
 }
 
@@ -38,9 +58,16 @@ li{text-decoration:none;color:#fff;font-size:15px}
     color: black;
     font-size: 12px;
     line-height: 24px;
-    width : 150px;
+    width: 150px;
     border-radius: 35px;
 }
 
-.nav1>ul{display:inline-block}
-.nav1>ul li{float:left;padding:0 30px;line-height:40px}
+.nav1>ul {
+    display: inline-block
+}
+
+.nav1>ul li {
+    float: left;
+    padding: 0 30px;
+    line-height: 40px
+}

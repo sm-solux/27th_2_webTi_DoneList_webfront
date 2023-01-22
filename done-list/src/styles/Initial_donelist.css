@@ -1,0 +1,11 @@
+ul li {
+    list-style-type: none; 
+    float: left;
+    
+}
+
+
+.Calendar {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,51 +1,58 @@
+@font-face {
+    font-family: 'BlackOpsOne';
+    src: url("../fonts/BlackOpsOne-Regular.ttf") format('truetype');
+}
+
 body {
     background-color: #EAE9D5;
     }
 
-    .main {
+    .join-main {
         vertical-align: center;
         display: flex; 
         background-color: #EAE9D5;
-        padding-top: 120px;
     }
 
-    .sub-main {
+    .join-sub-main {
         text-align: center;
         justify-content: center;
+        padding-top: 100px;
         padding-right: 20px;
     }
 
-    .imgs {
+    .join-imgs {
         position: relative;
-        padding-top: 0px;
-        padding-left: px;
+        padding-top: 200px;
         padding-right: 60px;
-        padding-bottom: 25px;
+        padding-left: 13%;
     }
 
-    .logo {
+    .join-logo {
         width: 350px;
         height: auto;
     }
 
-    .first-input{
+    .join-first-input{
         display: flex;
         padding-bottom: 15px;
     }
-    .v-line {
+    .join-v-line {
         position: absolute;
         border-left: 5px solid #065C94 ;
         padding: 65px 0 0 25px;
         margin-left: 200px;
     }
-    .text-nickname {
+    .join-nickname {
         height: 20px;
-        width: 20px;
+        width: 120px;
         position: absolute;
         padding: 20px 0 0 25px;
-        font-size: 20px
+        font-size: 20px;
+        margin-top: 3px;
+        font-family: "BlackOpsOne";
+        color: #065C94;
     }
-    .user-nickname {
+    .join-input-nickname {
         width: 340px;
         height: 55px;
         border-radius: 60px;
@@ -54,27 +61,31 @@ body {
         background-color: #fff;
         padding-left: 220px;
         font-size: 20px;
+        font-family: "BlackOpsOne";
     }
 
 
-    .second-input{
+    .join-second-input{
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    .v-line2 {
+    .join-v-line2 {
         position: absolute;
         border-left: 5px solid #065C94 ;
         padding: 65px 0 0 25px;
         margin-left: 200px;
     }
-    .text-id {
+    .join-id {
         height: 20px;
-        width: 20px;
+        width: 40px;
         position: absolute;
         padding: 20px 0 0 25px;
-        font-size: 20px
+        font-size: 20px;
+        margin-top: 3px;
+        font-family: "BlackOpsOne";
+        color: #065C94;
     }
-    .user-id{
+    .join-input-id{
         width: 340px;
         height: 55px;
         border-radius: 60px;
@@ -83,26 +94,30 @@ body {
         background-color: #fff;
         padding-left: 220px;
         font-size: 20px;
+        font-family: "BlackOpsOne";
     }
 
-    .third-input{
+    .join-third-input{
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    .v-line3 {
+    .join-v-line3 {
         position: absolute;
         border-left: 5px solid #065C94 ;
         padding: 65px 0 0 25px;
         margin-left: 200px;
     }
-    .text-pwd {
+    .join-pwd {
         height: 20px;
-        width: 20px;
+        width: 130px;
         position: absolute;
         padding: 20px 0 0 25px;   
-        font-size: 20px 
+        font-size: 20px;
+        margin-top: 3px;
+        font-family: "BlackOpsOne";
+        color: #065C94;
     }
-    .user-pwd {
+    .join-input-pwd {
         width: 340px;
         height: 55px;
         border-radius: 60px;
@@ -111,26 +126,30 @@ body {
         background-color: #fff;
         padding-left: 220px;
         font-size: 20px;
+        font-family: "BlackOpsOne";
     }
 
-    .fourth-input{
+    .join-fourth-input{
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    .v-line4 {
+    .join-v-line4 {
         position: absolute;
         border-left: 5px solid #065C94 ;
         padding: 65px 0 0 25px;
         margin-left: 200px;
     }
-    .text-cpwd {
+    .join-cpwd {
         height: 20px;
-        width: 100px;
+        width: 145px;
         position: absolute;
         padding: 20px 0 0 25px;   
-        font-size: 20px 
+        font-size: 20px;
+        margin-top: 3px;
+        font-family: "BlackOpsOne";
+        color: #065C94;
     }
-    .user-cpwd {
+    .join-input-cpwd {
         width: 340px;
         height: 55px;
         border-radius: 60px;
@@ -139,26 +158,31 @@ body {
         background-color: #fff;
         padding-left: 220px;
         font-size: 20px;
+        font-family: "BlackOpsOne";
     }
 
-    .fiveth-input{
+    .join-fiveth-input{
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    .v-line5 {
+    .join-v-line5 {
         position: absolute;
         border-left: 5px solid #065C94 ;
         padding: 65px 0 0 25px;
         margin-left: 200px;
     }
-    .text-ad-year {
+    .join-ad-year {
         height: 20px;
-        width: 70px;
+        width: 90px;
         position: absolute;
         padding: 20px 0 0 25px;   
-        font-size: 20px 
+        font-size: 20px;
+        margin-top: 3px;
+        font-family: "BlackOpsOne";
+        color: #065C94;
     }
-    .user-ad-year {
+
+    .join-input-ad-year {
         width: 340px;
         height: 55px;
         border-radius: 60px;
@@ -167,6 +191,7 @@ body {
         background-color: #fff;
         padding-left: 220px;
         font-size: 20px;
+        font-family: "BlackOpsOne";
     }
 
     .sign-up-button-Ui{
@@ -177,6 +202,7 @@ body {
         color: white;
         font-size: 20px;
         border: none;
+        font-family: "BlackOpsOne";
     }
     .sign-up-button{
         padding-top: 25px;
