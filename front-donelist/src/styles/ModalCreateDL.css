@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'BlackOpsOne';
+    src: url("../fonts/BlackOpsOne-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'AlikeAngular';
+    src: url("../fonts/AlikeAngular-Regular.ttf") format('truetype');
+}
+
+.cdlw-container {
+    /*모달 창 위치 조정*/
+    position: absolute;
+    top: -550px;
+    right: 5px;
+    height: 400px;
+    width: 240px;
+    z-index: 999;
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.cdlw-Graph-Color {
+    position: absolute;
+}
+
+.cdlw-Donelist-Name {
+    position: absolute;
+}
+
+.cdlw-Period {
+    position: absolute;
+}
+
+
+.cdlw-choose {
+    display: flex;
+    font-size: 23px;
+    font-family: "BlackOpsOne";
+    color: #065C94;
+    margin-bottom: 13px;
+}
+
+.cdlw-Graph-Color {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.cdlw-Donelist-Name, .cdlw-Period {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.cdlw-input {
+    margin-top: -10px;
+    border: none;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: 228px;
+    height: 27px;
+    padding-left: 15px;
+    font-family: 'BlackOpsOne';
+    font-size: 16px;
+    color: #3D3D3D;
+}
+
+/* selectbox 밑 회색 배경*/
+.cdlw-date {
+    border: none;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    margin-top: -5px;
+    padding: 0 20px 0 20px;
+}
+
+.cdlw-date-start {
+    position: absolute;
+}
+
+.cdlw-date-hyp{
+    position: absolute;
+    margin-left: 95px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'AlikeAngular';
+    color: #3D3D3D;
+    overflow: visible;
+}
+
+.cdlw-date-done {
+    position: absolute;
+    margin-left: 125px;
+}
+
+.cdlw-add, .cdlw-cancel {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 30px;
+    width: 110px;
+    height: 35px;
+    border: none;
+    background-color: #065C94;
+    font-family: 'AlikeAngular';
+    color: white;
+    font-size: 18px;
+}
+
+.cdlw-cancel {
+    margin-left: 10px;
+}

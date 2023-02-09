@@ -1,0 +1,143 @@
+
+.yearCircle {
+    border-radius: 50%;
+    background-color: #065c94;
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 517px;
+}
+
+.horizontal-line {
+    margin-top: 20px;
+    width: 600px;
+    border-top: solid #065c94;
+    border-width: 4px;
+}
+
+.monthCircles {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-flow: overlay;
+    position: relative;
+}
+
+.monthCircle1 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #065c94;
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.monthCircle2 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #065c94;
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-right: 115px;
+}
+
+.monthCircle3 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #065c94;
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-right: 165px;
+}
+
+.monthCircle4 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #065c94;
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-right: 215px;
+}
+
+.monthCircle5 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #065c94;
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-right: 265px;
+}
+
+.monthCircle6 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #065c94;
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-right: 315px
+}
+
+.monthCircle7 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #065c94;
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-right: 365px;
+}
+
+.monthCircle8 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #065c94;
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-right: 415px;
+}
+
+.monthCircle9 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #065c94;
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-right: 465px;
+}
+
+.monthCircle10 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #065c94;
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-right: 515px;
+}
+
+.monthCircle11 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #065c94;
+    width: 10px;
+    height: 10px;
+    margin-top: 20px;
+    margin-right: 565px
+}
+
+
+
+.year-line {
+    margin-top: -1px;
+    margin-right: 70px;
+    border-right: solid #065c94;
+    height: 600px;
+    border-width: 1px;
+}

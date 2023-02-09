@@ -1,0 +1,45 @@
+
+/* #6582BB, #BA6AA4, #C7705E, #8BBB65 */
+
+/* 커스텀 라디오 버튼, 선택 전 버튼 */
+[type="radio"]{
+    position: absolute;
+    appearance: none;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+
+/* 커스텀 라디오 버튼, 선택 후 버튼 */
+[type="radio"]:checked {
+    background-color: #3D3D3D;
+}
+
+.colorBar-blue, 
+.colorBar-pink, 
+.colorBar-orange, 
+.colorBar-green
+{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 27px;
+    border-radius: 50px;
+}
+
+.colorBar-blue {
+    background-color: #6582BB;
+}
+
+.colorBar-pink {
+    background-color: #BA6AA4;
+}
+
+.colorBar-orange {
+    background-color: #C7705E;
+}
+
+.colorBar-green {
+    background-color: #8BBB65;
+}

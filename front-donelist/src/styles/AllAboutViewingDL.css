@@ -1,0 +1,63 @@
+/*AllAboutViewingDL.css*/
+@font-face {
+    font-family: 'han-Bold';
+    src: url("../fonts/NotoSansKR-Bold.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'han-VeryBold';
+    src: url("../fonts/NotoSansKR-Black.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'han-Regular';
+    src: url("../fonts/NotoSansKR-Regular.otf") format('truetype');
+}
+
+.last_view_area {
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 80px;
+    width: 350px;
+    height: 210px;
+    background-color:ivory;
+    border-radius: 20px;
+}
+
+.last_dl_image {
+    margin-top: 20px;
+    height:135px;
+    width: 300px;
+}
+
+.last_dl_nickName_area {
+    margin-top: 5px;
+}
+.last_dl_nickName1 {
+    font-size: 18px;
+    margin-top: 20px;
+    color:#065C94;
+    font-family: "han-Bold";
+}
+
+.last_dl_nickName2 {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    color:#065C94;
+    font-family: "han-Regular";
+}
+
+.last_dl_startYear_area {
+    margin-top: 5px;
+}
+.last_dl_startYear1 {
+    font-family: "BlackOpsOne";
+    font-size: 14px;
+}
+
+.last_dl_startYear2 {
+    font-size : 13px;
+    font-family: "han-Regular";
+}

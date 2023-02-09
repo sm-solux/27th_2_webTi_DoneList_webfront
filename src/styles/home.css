@@ -1,0 +1,76 @@
+body
+{
+background-color: #EAE9D5;
+} 
+
+
+.slogan {
+    text-align: left;
+    font-size : 50px;
+    margin-top: 90px;
+    margin-left : 90px;
+    font-style: italic;
+    font-family: "나눔명조";
+    font-weight: lighter;
+    color : #065C94;
+}
+
+.title {
+    text-align: left;
+    font-size : 115px;
+    margin-top: 20px;
+    margin-left : 80px;
+    font-family: "Elephant";
+    font-weight:normal;
+    color : #065C94;
+    overflow:hidden;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out; 
+}
+
+.title:hover {
+    transform: scale(1.05);
+}
+.introduce1 {
+    text-align: left;
+    font-size : 18px;
+    margin-top: 5px;
+    margin-left : 95px;
+    font-family: "나눔스퀘어";
+    font-style: italic;
+    color : #065C94;
+}
+
+.introduce2 {
+    text-align: left;
+    font-size : 18px;
+    margin-top: 5px;
+    margin-left : 95px;
+    font-family: "나눔스퀘어";
+    font-style: italic;
+    color : #065C94;
+}
+
+.introduce3 {
+    text-align: left;
+    font-size : 18px;
+    margin-top: 5px;
+    margin-left : 95px;
+    font-family: "나눔스퀘어";
+    font-style: italic;
+    color : #065C94;
+}
+
+.text {
+    float: left;
+    
+}
+
+.logoImage {
+    width : 25%;
+    margin-top: 12%;
+    margin-left : 185px;
+    float: left;
+    position :fixed;
+    overflow:hidden;
+}

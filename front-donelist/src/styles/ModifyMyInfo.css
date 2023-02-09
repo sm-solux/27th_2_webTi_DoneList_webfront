@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'BlackOpsOne';
+    src: url("../fonts/BlackOpsOne-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'han-Bold';
+    src: url("../fonts/NotoSansKR-Bold.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'han-VeryBold';
+    src: url("../fonts/NotoSansKR-Black.otf") format('truetype');
+}
+
+body {
+    background-color: #EAE9D5;
+    }
+
+    .mod-main {
+        vertical-align: center;
+        display: flex; 
+        background-color: #EAE9D5;
+    }
+
+    .mod-sub-main {
+        text-align: center;
+        justify-content: center;
+        padding-top: 100px;
+        padding-right: 20px;
+    }
+
+    .mod-imgs {
+        position: relative;
+        padding-top: 200px;
+        padding-left: 13%;
+        padding-right: 60px;
+    }
+
+    .mod-logo {
+        width: 350px;
+        height: auto;
+    }
+
+    .mod-first-input{
+        display: flex;
+        padding-bottom: 15px;
+        padding-left: 0px;
+    }
+    .mod-v-line {
+        position: absolute;
+        border-left: 5px solid #065C94 ;
+        padding: 65px 0 0 25px;
+        margin-left: 200px;
+    }
+    .mod-text-nickname {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        padding: 20px 0 0 25px;
+        font-size: 20px;
+        margin-top: 3px;
+        margin-left: 3px;
+        font-family: "BlackOpsOne";
+        color: #065C94;
+    }
+    .mod-user-nickname {
+        width: 340px;
+        height: 55px;
+        border-radius: 60px;
+        border: 5px solid #065C94;
+        outline: none;
+        background-color: #fff;
+        padding-left: 220px;
+        font-size: 18px;
+        font-family: "han-veryBold";
+    }
+
+
+    .mod-second-input{
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .mod-v-line2 {
+        position: absolute;
+        border-left: 5px solid #065C94 ;
+        padding: 65px 0 0 25px;
+        margin-left: 200px;
+    }
+    .mod-text-id {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        padding: 20px 0 0 25px;
+        font-size: 20px;
+        margin-top: 3px;
+        margin-left: 3px;
+        font-family: "BlackOpsOne";
+        color: #065C94;
+    }
+    .mod-user-id{
+        width: 340px;
+        height: 55px;
+        border-radius: 60px;
+        border: 5px solid #065C94;
+        outline: none;
+        background-color: #fff;
+        padding-left: 220px;
+        font-size: 20px;
+        font-family: "BlackOpsOne";
+    }
+
+    .mod-third-input{
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .mod-v-line3 {
+        position: absolute;
+        border-left: 5px solid #065C94 ;
+        padding: 65px 0 0 25px;
+        margin-left: 200px;
+    }
+    .mod-text-pwd {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        padding: 20px 0 0 25px;   
+        font-size: 20px;
+        margin-top: 3px;
+        margin-left: 3px;
+        font-family: "BlackOpsOne";
+        color: #065C94;
+    }
+    .mod-user-pwd {
+        width: 340px;
+        height: 55px;
+        border-radius: 60px;
+        border: 5px solid #065C94;
+        outline: none;
+        background-color: #fff;
+        padding-left: 220px;
+        font-size: 20px;
+        font-family: "BlackOpsOne";
+    }
+
+    .mod-fourth-input{
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .mod-v-line4 {
+        position: absolute;
+        border-left: 5px solid #065C94 ;
+        padding: 65px 0 0 25px;
+        margin-left: 200px;
+    }
+    .mod-text-cpwd {
+        height: 20px;
+        width: 130px;
+        position: absolute;
+        padding: 20px 0 0 25px;   
+        font-size: 20px;
+        margin-top: 3px;
+        font-family: "BlackOpsOne";
+        color: #065C94;
+    }
+    .mod-user-cpwd {
+        width: 340px;
+        height: 55px;
+        border-radius: 60px;
+        border: 5px solid #065C94;
+        outline: none;
+        background-color: #fff;
+        padding-left: 220px;
+        font-size: 20px;
+        font-family: "BlackOpsOne";
+    }
+
+    .mod-fiveth-input{
+        display: flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .mod-v-line5 {
+        position: absolute;
+        border-left: 5px solid #065C94 ;
+        padding: 65px 0 0 25px;
+        margin-left: 200px;
+    }
+    .mod-text-ad-year {
+        height: 20px;
+        width: 70px;
+        position: absolute;
+        padding: 20px 0 0 25px;   
+        font-size: 18px;
+        margin-top: 3px;
+        margin-left: 5px;
+        font-family: "han-VeryBold";
+        color: #065C94;
+    }
+    .mod-user-ad-year {
+        width: 340px;
+        height: 55px;
+        border-radius: 60px;
+        border: 5px solid #065C94;
+        outline: none;
+        background-color: #fff;
+        padding-left: 220px;
+        font-size: 20px;
+        font-family: "BlackOpsOne";
+    }
+
+    .mod-button-Ui{
+        width: 140px;
+        height: 60px;
+        border-radius: 60px;
+        background-color: #065C94;
+        color: white;
+        font-size: 20px;
+        border: none;
+        font-family: "BlackOpsOne";
+    }
+    .mod-button{
+        padding-top: 25px;
+    }

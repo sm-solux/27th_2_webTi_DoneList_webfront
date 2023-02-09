@@ -1,0 +1,13 @@
+.modifydone-logo {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    margin-top: -150px;
+    margin-left: 25px;
+}
+
+.modifydone-btn {
+    padding-top: 09px;
+    text-align: center;
+    color:white;
+}

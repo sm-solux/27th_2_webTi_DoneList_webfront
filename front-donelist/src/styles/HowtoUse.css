@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'han-Bold';
+    src: url("../fonts/NotoSansKR-Bold.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'han-VeryBold';
+    src: url("../fonts/NotoSansKR-Black.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'han-Regular';
+    src: url("../fonts/NotoSansKR-Regular.otf") format('truetype');
+}
+
+.howtouse-container1 {
+    position: relative;
+    margin-left: 130px;
+    margin-top: 70px;
+}
+
+.howtouse-logoImg {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.howtouse-Team {
+    position: absolute;
+    font-family: "han-VeryBold";
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 420px;
+    margin-top: 50px;
+}
+
+.howtouse-Title {
+    position: absolute;
+    font-family: "han-Bold";
+    margin-left: 420px;
+    margin-top: 110px;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.howtouse-way {
+    position: absolute;
+    font-family: "han-Regular";
+    margin-left: 420px;
+    margin-top: 150px;
+    font-size: 17px;
+}
+
+.howtouse-container2 {
+    position: relative;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.howtouse-DLimg {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-left: 800px;
+    margin-top: 340px;
+}
+
+.howtouse-tomakeTitle {
+    position: absolute;
+    margin-top: 300px;
+    font-family: "han-VeryBold";
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.howtouse-tomake-1 {
+    position: absolute;
+    margin-top: 360px;
+    font-size: 17px;
+    font-family: "han-Regular";
+}
+
+.howtouse-tomake-2-1 {
+    position: absolute;
+    margin-top: 400px;
+    font-size: 17px;
+    font-family: "han-Regular";
+}
+
+.howtouse-tomake-2-2 {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 420px;
+    font-size: 17px;
+    font-family: "han-Regular";
+}
+
+.howtouse-tomake-3-1 {
+    position: absolute;
+    margin-top: 450px;
+    font-size: 17px;
+    font-family: "han-Regular";
+}
+
+.howtouse-tomake-3-2 {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 470px;
+    font-size: 17px;
+    font-family: "han-Regular";
+}
+
+.howtouse-tomake-4 {
+    position: absolute;
+    margin-top: 510px;
+    font-size: 17px;
+    font-family: "han-Regular";
+}

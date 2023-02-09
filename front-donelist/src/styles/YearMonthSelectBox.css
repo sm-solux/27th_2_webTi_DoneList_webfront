@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'AlikeAngular';
+    src: url("../fonts/AlikeAngular-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'BlackOpsOne';
+    src: url("../fonts/BlackOpsOne-Regular.ttf") format('truetype');
+}
+
+
+.selectbox {
+    position: relative;
+}
+
+.selectbox-year {
+    position: absolute;
+}
+
+.selectbox-comma {
+    position: absolute;
+    font-size: 16px;
+    font-family: 'BlackOpsOne';
+    margin-left: 47px;
+    margin-top: 7px;
+    color: #3D3D3D;
+}
+
+.selectbox-month {
+    position: absolute;
+    margin-left: 50px;
+}
+
+.select-year {
+    width: 62px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'BlackOpsOne';
+    color: #3D3D3D;
+    border: none;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    
+    appearance: none;
+}
+
+
+.select-month {
+    margin-left: 5px;
+    width: 43px;
+    height: 30px;
+    font-size: 16px;
+    font-family: 'BlackOpsOne';
+    color: #3D3D3D;
+    border: none;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+
+    appearance: none;
+}

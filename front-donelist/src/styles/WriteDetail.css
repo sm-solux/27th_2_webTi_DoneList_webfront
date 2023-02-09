@@ -1,0 +1,367 @@
+/* all version*/
+textarea:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+/*blue version*/
+
+.WriteBlue-letsHashtag{
+    margin-left: 185px;
+    margin-top: 10px;
+    font-family: "BlackOpsOne";
+    font-size: 17px;
+    color:  #6582BB;
+}
+
+.WriteBlue-hashtag-activity {
+    margin-left: 185px;
+    margin-top: 10px;
+}
+.WriteBlue-hashtagBtn-act {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.WriteBlue-hashtagBtn-act-active {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border-width: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #6582BB;
+}
+
+.WriteBlue-hashtag-major {
+    margin-left: 185px;
+    margin-top: 10px;
+}
+.WriteBlue-hashtagBtn-major {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.WriteBlue-hashtagBtn-major-active {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border-width: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #6582BB;
+}
+
+.write-complete {
+    margin-left: 1015px;
+    float:left;
+    margin-top: -70px;
+    width: 120px;
+    height: 40px;
+    color:white;
+    background-color: #6582BB;
+    border:none;
+    border-radius: 10px;
+    font-family: "BlackOpsOne";
+    font-size: 17px;
+    cursor:pointer;
+}
+
+/*orange version*/
+
+.WriteOrange-letsHashtag{
+    margin-left: 185px;
+    margin-top: 10px;
+    font-family: "BlackOpsOne";
+    font-size: 17px;
+    color:  #C7705E;
+}
+
+.WriteOrange-hashtag-activity {
+    margin-left: 185px;
+    margin-top: 10px;
+}
+.WriteOrange-hashtagBtn-act {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.WriteOrange-hashtagBtn-act-active {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border-width: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #C7705E;
+}
+
+.WriteOrange-hashtag-major {
+    margin-left: 185px;
+    margin-top: 10px;
+}
+.WriteOrange-hashtagBtn-major {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.WriteOrange-hashtagBtn-major-active {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border-width: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #C7705E;
+}
+
+.write-complete-orange {
+    margin-left: 1015px;
+    float:left;
+    margin-top: -70px;
+    width: 120px;
+    height: 40px;
+    color:white;
+    background-color:#C7705E;
+    border:none;
+    border-radius: 10px;
+    font-family: "BlackOpsOne";
+    font-size: 17px;
+    cursor:pointer;
+}
+
+/*green version*/
+
+.WriteGreen-letsHashtag{
+    margin-left: 185px;
+    margin-top: 10px;
+    font-family: "BlackOpsOne";
+    font-size: 17px;
+    color:  #8BBB65;
+}
+
+.WriteGreen-hashtag-activity {
+    margin-left: 185px;
+    margin-top: 10px;
+}
+.WriteGreen-hashtagBtn-act {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.WriteGreen-hashtagBtn-act-active {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border-width: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #8BBB65;
+}
+
+.WriteGreen-hashtag-major {
+    margin-left: 185px;
+    margin-top: 10px;
+}
+.WriteGreen-hashtagBtn-major {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.WriteGreen-hashtagBtn-major-active {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border-width: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #8BBB65;
+}
+
+.write-complete-green {
+    margin-left: 1015px;
+    float:left;
+    margin-top: -70px;
+    width: 120px;
+    height: 40px;
+    color:white;
+    background-color:#8BBB65;
+    border:none;
+    border-radius: 10px;
+    font-family: "BlackOpsOne";
+    font-size: 17px;
+    cursor:pointer;
+}
+
+/*pink version*/
+.WritePink-letsHashtag{
+    margin-left: 185px;
+    margin-top: 10px;
+    font-family: "BlackOpsOne";
+    font-size: 17px;
+    color: #BA6AA4;
+}
+
+.WritePink-hashtag-activity {
+    margin-left: 185px;
+    margin-top: 10px;
+}
+.WritePink-hashtagBtn-act {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.WritePink-hashtagBtn-act-active {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border-width: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #BA6AA4;
+}
+
+.WritePink-hashtag-major {
+    margin-left: 185px;
+    margin-top: 10px;
+}
+.WritePink-hashtagBtn-major {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.WritePink-hashtagBtn-major-active {
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 90px;
+    color: black;
+    background-color: rgba(175, 175, 175, 0.3); 
+    height: 30px;
+    line-height: 30px;
+    border-width: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid #BA6AA4;
+}
+
+.write-complete-pink {
+    margin-left: 1015px;
+    float:left;
+    margin-top: -70px;
+    width: 120px;
+    height: 40px;
+    color:white;
+    background-color:#BA6AA4;
+    border:none;
+    border-radius: 10px;
+    font-family: "BlackOpsOne";
+    font-size: 17px;
+    cursor:pointer;
+}
+
+.modifydone {
+    font-size: 35px;
+    padding-top: 18px;
+    text-align: center;
+    color:white;
+}
+

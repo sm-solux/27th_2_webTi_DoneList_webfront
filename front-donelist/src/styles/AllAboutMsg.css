@@ -1,0 +1,195 @@
+.msg-title {
+    position: absolute;
+    font-size: 28px;
+    margin-left:200px;
+    margin-top: 70px;
+    color: #065C94;
+    font-family: "BlackOpsOne";
+    font-weight: bolder;
+}
+
+.msg-line {
+    position:absolute;
+    width: 1000px;
+    height: 3px;
+    background-color: #065C94;
+    border:none;
+    margin-left: 200px;
+    margin-top: 110px;
+}
+
+.msg-list-titles {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 280px;
+}
+
+.msg-list-title1 , .msg-list-title2, .msg-list-title3, .msg-list-title4 {
+    position: absolute;
+    width: max-content;
+    color: #065C94;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.msg-list-title2 {
+    margin-left: 130px;
+}
+
+.msg-list-title3 {
+    margin-left: 560px;
+}
+
+.msg-list-title4 {
+    margin-left: 740px;
+}
+
+.msg-title-line {
+    position:absolute;
+    width: 900px;
+    height: 2px;
+    background-color: #065C94;
+    border:none;
+    margin-left: 240px;
+    margin-top: 155px;
+}
+
+.received-msg-item {
+    position: relative;
+    margin-top: 5px;
+}
+
+.received-msg-items {
+    position: relative;
+    width: max-content;
+    height: max-content;
+}
+
+.received-msg-item-div{
+    position: absolute;
+    margin-top: 170px;
+
+}
+
+.received-msg-id, .received-msg-title, 
+.received-msg-userId, .received-msg-dateString, 
+.received-msg-line {
+    position: absolute;
+    color: #065C94;
+    font-size: 18px;
+    width: max-content;
+}
+
+.received-msg-id {
+    margin-left: 290px;
+}
+
+.received-msg-title {
+    margin-left: 410px;
+
+}
+
+.received-msg-userId {
+    margin-left: 840px;
+}
+
+.received-msg-dateString {
+    margin-left: 1000px;
+}
+
+.received-msg-line {
+    position: absolute;
+    width: 900px;
+    height: 1px;
+    background-color: #065C94;
+    border:none;
+    margin-left: 240px;
+    margin-top: 25px;
+}
+
+/*쪽지열람파트. messageTest.js 관련*/
+
+.msgDetailTitle {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 220px;
+    color: #065C94;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.msgDetailTitle-area {
+    position: absolute;
+    border-radius: 10px;
+    width: 600px;
+    height: 50px;
+    background-color: transparent;
+    border:none;
+    margin-left: 360px;
+    margin-top: 169px;
+    font-size: 22px;
+    color: #065C94;
+    font-family: "han-Regular";
+}
+
+.msgDetailContent {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 220px;
+    color: #065C94;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.msgDetailContent-area {
+    position: absolute;
+    width: 930px;
+    height: 130px;
+    background-color: transparent;
+    border: solid #065C94;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: 310px;
+    font-size: 18px;
+    padding: 10px;
+    color: #065C94;
+}
+
+.re-sending-btn {
+    position: absolute;
+    margin-left: 1070px;
+    margin-top: 500px;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #065C94;
+    color:white;
+    font-family: "BlackOpsOne";
+}
+
+.msgsender {
+    
+    position: absolute;
+    margin-top: 214px;
+    margin-left: 220px;
+    color: #065C94;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.msgsenderdetail {
+    
+    position: absolute;
+    border-radius: 10px;
+    width: 600px;
+    height: 50px;
+    background-color: transparent;
+    border:none;
+    margin-left: 360px;
+    margin-top: 212px;
+    font-size: 22px;
+    color: #065C94;
+    font-family: "han-Regular";
+}

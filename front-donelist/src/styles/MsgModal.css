@@ -1,0 +1,99 @@
+.msgModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  /* modal창 */
+.msgmodalBody {
+    position: absolute;
+    width: 450px;
+    height: 550px;
+    padding: 40px;
+    background-color: #E9E8DC;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+}
+.msgmodalCloseBtn {
+    text-align: center;
+    position: absolute;
+    margin-left: 210px;
+}
+.msgmodal-title {
+    position: absolute;
+    color: #065C94;
+    margin-top: 70px;
+    font-size: 22px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    border-bottom: solid 2px;
+}
+
+
+.msgmodal-titledetail {
+    position: absolute;
+    top: 150px;
+    font-size: 20px;
+    color: #065C94;
+}
+
+.msgmodal-title-txtarea {
+    position:absolute;
+    margin-top: 90px;
+    margin-left: -4px;
+    width: 450px;
+    height: 40px;
+    background-color: transparent;
+    border-color: #065C94;
+    border-width: 2px;
+    resize: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.msgmodal-contents {
+    position: absolute;
+    color: #065C94;
+    margin-top: 180px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.msgmodal-contents-txtarea {
+    position:absolute;
+    margin-top: 220px;
+    margin-left: -4px;
+    width: 430px;
+    height: 180px;
+    background-color: transparent;
+    border-color: #065C94;
+    border-width: 2px;
+    resize: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    font-family: "han";
+}
+
+.msgmodal-sendBtn {
+    position:absolute;
+    margin-top: 480px;
+    margin-left: 140px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family: "BlackOpsOne";
+    font-weight: bold;
+    background-color: #065C94;
+    color:white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+

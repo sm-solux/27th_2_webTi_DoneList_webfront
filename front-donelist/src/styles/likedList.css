@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'han-Regular';
+    src: url("../fonts/NotoSansKR-Regular.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'han-Bold';
+    src: url("../fonts/NotoSansKR-Bold.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'han-Medium';
+    src: url("../fonts/NotoSansKR-Medium.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Alike';
+    src: url("../fonts/AlikeAngular-Regular.ttf") format('truetype');
+}
+
+
+.list-area {
+    width: 420px;
+    height:500px;
+    position: absolute;
+    left: 500px;
+    background-color: white;
+}
+
+.liked-list-items {
+    position:relative;
+    width: 330px;
+    height:50px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.img-DL_D {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    left: -30px;
+}
+
+.liked-text{
+    position: absolute;
+    left: 30px;
+    width: 270px;
+    height: 50px;
+    top: 15px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    border-bottom: solid 1px;
+    border-color: #B5B5B5;
+}
+
+.liked-texts {
+    position: relative;
+    margin-top: 9px;
+}
+
+.liked-text-item-nick {
+    margin-left: 40px;
+    font-family: "han-Medium";
+}
+
+.liked-text-item-title {
+    margin-left: 0px;
+    font-family: "Alike";
+    font-weight: bold;
+    width: max-content;
+}
+
+.liked-list-introduce {
+    font-family: "han-Regular";
+}

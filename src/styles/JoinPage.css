@@ -1,0 +1,183 @@
+body {
+    background-color: #EAE9D5;
+    }
+
+    .main {
+        vertical-align: center;
+        display: flex; 
+        background-color: #EAE9D5;
+        padding-top: 120px;
+    }
+
+    .join-sub-main {
+        text-align: center;
+        justify-content: center;
+        padding-right: 20px;
+    }
+
+    .join-imgs {
+        position: relative;
+        padding-top: 0px;
+        padding-left: px;
+        padding-right: 60px;
+        padding-bottom: 25px;
+    }
+
+    .join-logo {
+        width: 350px;
+        height: auto;
+    }
+
+    .join-first-input{
+        display: flex;
+        padding-bottom: 15px;
+    }
+    .join-v-line {
+        position: absolute;
+        border-left: 5px solid #065C94 ;
+        padding: 65px 0 0 25px;
+        margin-left: 200px;
+    }
+    .join-nickname {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        padding: 20px 0 0 25px;
+        font-size: 20px
+    }
+    .join-input-nickname {
+        width: 340px;
+        height: 55px;
+        border-radius: 60px;
+        border: 5px solid #065C94;
+        outline: none;
+        background-color: #fff;
+        padding-left: 220px;
+        font-size: 20px;
+    }
+
+
+    .join-second-input{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .join-v-line2 {
+        position: absolute;
+        border-left: 5px solid #065C94 ;
+        padding: 65px 0 0 25px;
+        margin-left: 200px;
+    }
+    .join-id {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        padding: 20px 0 0 25px;
+        font-size: 20px
+    }
+    .join-input-id{
+        width: 340px;
+        height: 55px;
+        border-radius: 60px;
+        border: 5px solid #065C94;
+        outline: none;
+        background-color: #fff;
+        padding-left: 220px;
+        font-size: 20px;
+    }
+
+    .join-third-input{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .join-v-line3 {
+        position: absolute;
+        border-left: 5px solid #065C94 ;
+        padding: 65px 0 0 25px;
+        margin-left: 200px;
+    }
+    .join-pwd {
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        padding: 20px 0 0 25px;   
+        font-size: 20px 
+    }
+    .join-input-pwd {
+        width: 340px;
+        height: 55px;
+        border-radius: 60px;
+        border: 5px solid #065C94;
+        outline: none;
+        background-color: #fff;
+        padding-left: 220px;
+        font-size: 20px;
+    }
+
+    .join-fourth-input{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .join-v-line4 {
+        position: absolute;
+        border-left: 5px solid #065C94 ;
+        padding: 65px 0 0 25px;
+        margin-left: 200px;
+    }
+    .join-cpwd {
+        height: 20px;
+        width: 100px;
+        position: absolute;
+        padding: 20px 0 0 25px;   
+        font-size: 20px 
+    }
+    .join-input-cpwd {
+        width: 340px;
+        height: 55px;
+        border-radius: 60px;
+        border: 5px solid #065C94;
+        outline: none;
+        background-color: #fff;
+        padding-left: 220px;
+        font-size: 20px;
+    }
+
+    .join-fiveth-input{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .join-v-line5 {
+        position: absolute;
+        border-left: 5px solid #065C94 ;
+        padding: 65px 0 0 25px;
+        margin-left: 200px;
+    }
+    .join-ad-year {
+        height: 20px;
+        width: 70px;
+        position: absolute;
+        padding: 20px 0 0 25px;   
+        font-size: 20px 
+    }
+    .join-input-ad-year {
+        width: 340px;
+        height: 55px;
+        border-radius: 60px;
+        border: 5px solid #065C94;
+        outline: none;
+        background-color: #fff;
+        padding-left: 220px;
+        font-size: 20px;
+    }
+
+    .sign-up-button-Ui{
+        width: 140px;
+        height: 60px;
+        border-radius: 60px;
+        background-color: #065C94;
+        color: white;
+        font-size: 20px;
+        border: none;
+    }
+    .sign-up-button{
+        padding-top: 25px;
+    }

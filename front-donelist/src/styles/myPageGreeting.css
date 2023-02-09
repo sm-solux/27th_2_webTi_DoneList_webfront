@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'han-Regular';
+    src: url("../fonts/NotoSansKR-Regular.otf") format('truetype');
+}
+
+.profile-hi {
+    position:absolute;
+    margin-top:150px;
+    margin-left:370px;
+    font-size: 30px;
+    font-family: "han-Regular";
+    
+}
